@@ -1,0 +1,37 @@
+== TODO Backend Application with Quarkus
+
+The application illustrates the usage of JPA with Panache.
+
+Original work:
+link:https://github.com/cescoffier/quarkus-deep-dive/tree/15a9c840904733e4821168e6f287f1afefb8c845/Q04-rest-crud-application/todo-backend[quarkus-deep-dive project] by Clement Escoffier and Emmanuel Bernard
+
+=== Database
+
+Run:
+
+----
+docker run --ulimit memlock=-1:-1 -it --rm=true --memory-swappiness=0 \
+    --name postgres-quarkus-rest-http-crud -e POSTGRES_USER=restcrud \
+    -e POSTGRES_PASSWORD=restcrud -e POSTGRES_DB=rest-crud \
+    -p 5432:5432 postgres:10.5
+----
+
+=== Application
+
+----
+mvn compile quarkus:dev
+----
+
+Open: http://localhost:8080/ to get the user interface.
+
+The API is available under:
+
+http://localhost:8080/api
+
+=== OpenAPI
+
+Add OpenAPI extension in the Quarkus Application:
+
+----
+mvn quarkus:add-extension -Dextensions="openapi"
+----

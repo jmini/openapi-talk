@@ -1,0 +1,47 @@
+//tag::vardef[]
+:gh-repo-owner: jmini
+:gh-repo-name: openapi-talk
+:project-name: OpenAPI Talk
+:branch: master
+:twitter-handle: j2r2b
+:license: https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html
+:license-name: Eclipse Public License - v 2.0
+
+:git-repository: {gh-repo-owner}/{gh-repo-name}
+:homepage: https://{gh-repo-owner}.github.io/{gh-repo-name}/
+:issues: https://github.com/{git-repository}/issues
+
+:talkname: {project-name}
+:talkpage: https://cfp-voxxed-lux.yajug.org/talk/KRQ-3526/Utiliser_OpenAPI_plutot_qu%E2%80%99un_document_html_quelconque_pour_decrire_son_API
+//end::vardef[]
+
+//tag::header[]
+= {project-name}
+:author: Jeremie Bresson
+:revnumber: 2019-06-21
+
+Content associated with the talk _link:{talkpage}[{talkname}]_ given at link:http://eclipsecon.org/europe2018[Voxxed Days Luxembourg 2019]
+//end::header[]
+
+//tag::description[]
+== Description
+
+This repository contains the examples and the code demo presented during the talk.
+
+//end::description[]
+Read more on the link:{homepage}[project home page].
+
+//tag::contact-section[]
+== Get in touch
+
+Use the link:{issues}[issue tracker] on GitHub.
+
+You can also contact me on Twitter: link:https://twitter.com/{twitter-handle}[@{twitter-handle}]
+//end::contact-section[]
+
+//tag::license-section[]
+== License
+
+Code is under link:{license}[{license-name}].
+Documentation and slides are under the link:https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons BY-SA 4.0]
+//end::license-section[]
