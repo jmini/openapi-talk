@@ -35,30 +35,17 @@ image:postman-import.png[Import feature in Postman]
 
 === Server implementation
 
-There are 2 server implementation based on Thorntail.
-
-* git-link:todoapp_jaxrs/[todoapp_jaxrs]: JAX-RS only
-* git-link:todoapp/[todoapp]: JAX-RS + OpenAPI Microprofile
-
-To start the application just run following command inside a project:
-
-```
-mvn thorntail:run
-```
-
-The server is started on port `8080`.
-
-If you start version with the OpenAPI support the generated spec is available at:
-
-```
-http://localhost:8080/openapi
-```
+include::../todo-backend/README.adoc[tags="content", leveloffset=1]
 
 === Client implementation
 
 The OpenAPI-Generator jar is prepared in the git-link:todoapp_client/[todoapp_client] folder.
 
 include::../todoapp_client/README.adoc[]
+
+== Talks
+
+include::{github-readme}[tags=talks]
 
 include::{github-readme}[tags=contact-section]
 

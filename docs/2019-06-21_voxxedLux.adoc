@@ -1,0 +1,30 @@
+:github-readme: ../README.adoc
+
+include::{github-readme}[tags=vardef]
+
+== {talk1-name}
+
+* date: {talk1-date}
+* conference: {talk1-conference}
+* link:{talk1-url}[talk page]
+* slides: link:{homepage}{talk1-id}.pdf[{talk1-id}.pdf]
+* language: french
+// * video: 
+
+Back to <<index.adoc#, homepage>>.
+
+=== Abstract
+
+Une spécification OpenAPI (anciennement connu sous le nom de Swagger) permet de décrire une API REST.
+C’est un format standard, lisible par une machine et indépendant de tout langage de programmation.
+C’est un projet open-source hébergé par la fondation Linux.
+
+Cette présentation est un retour d’expérience qui montre comment nous sommes passé d’un format standard pour documenter notre API à l’utilisation d’OpenAPI.
+Les bénéfices sont nombreux:
+
+* Integration avec d’autres outils (postman ou des générateurs de code)
+* Possibilité de détecter des breaking-changes lors des évolutions d’API
+
+Les approches “spec-first” ou “code-first” présentent chacun des avantages et des inconvénients qui seront également exposés.
+
+Les exemples de codes sont open-source, hébergés sur GitHub.

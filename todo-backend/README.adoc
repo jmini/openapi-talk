@@ -1,9 +1,11 @@
 == TODO Backend Application with Quarkus
 
-The application illustrates the usage of JPA with Panache.
+// tag::content[]
+
+The application illustrates the usage of JPA with Panache, exposed as a JAX-RS application.
 
 Original work:
-link:https://github.com/cescoffier/quarkus-deep-dive/tree/15a9c840904733e4821168e6f287f1afefb8c845/Q04-rest-crud-application/todo-backend[quarkus-deep-dive project] by Clement Escoffier and Emmanuel Bernard
+link:https://github.com/cescoffier/quarkus-deep-dive/tree/15a9c840904733e4821168e6f287f1afefb8c845/Q04-rest-crud-application/todo-backend[quarkus-deep-dive project] by Clement Escoffier and Emmanuel Bernard.
 
 === Database
 
@@ -35,3 +37,9 @@ Add OpenAPI extension in the Quarkus Application:
 ----
 mvn quarkus:add-extension -Dextensions="openapi"
 ----
+
+You can get the OpenAPI Specification at:
+
+http://localhost:8080/openapi
+
+// end::content[]
