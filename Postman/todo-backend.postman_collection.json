@@ -126,7 +126,7 @@
 							]
 						},
 						{
-							"name": "Update an exsiting todo",
+							"name": "Update an existing todo",
 							"request": {
 								"auth": {
 									"type": "noauth"

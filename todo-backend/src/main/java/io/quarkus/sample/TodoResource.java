@@ -108,7 +108,7 @@ public class TodoResource {
     @Transactional
     @Operation(
             operationId = "todoUpdate",
-            summary = "Update an exsiting todo")
+            summary = "Update an existing todo")
     @APIResponses(
             value = @APIResponse(
                             responseCode = "200",

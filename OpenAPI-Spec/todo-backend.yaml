@@ -93,7 +93,7 @@ paths:
         204:
           description: No content
     patch:
-      summary: Update an exsiting todo
+      summary: Update an existing todo
       operationId: todoUpdate
       parameters:
       - name: id
