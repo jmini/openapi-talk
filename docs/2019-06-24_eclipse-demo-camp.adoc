@@ -1,0 +1,11 @@
+:github-readme: ../README.adoc
+
+include::{github-readme}[tags=vardef]
+
+== {talk2-name}
+
+* date: {talk2-date}
+* conference: {talk2-conference}
+* slides: link:{homepage}{talk2-id}.pdf[{talk2-id}.pdf]
+
+Back to <<index.adoc#, homepage>>.

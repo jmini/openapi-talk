@@ -18,12 +18,18 @@
 :talk1-page: {homepage}{talk1-id}.html
 :talk1-conference: link:https://voxxeddays.com/luxembourg/[Voxxed Days Luxembourg 2019]
 
+:talk2-name: Eclipse MicroProfile OpenAPI
+:talk2-date: 2019-06-24
+:talk2-id: {talk2-date}_eclipse-demo-camp
+:talk2-page: {homepage}{talk2-id}.html
+:talk2-conference: link:https://wiki.eclipse.org/Eclipse_DemoCamps_2019/Zurich[Eclipse DemoCamp Zurich 2019]
+
 //end::vardef[]
 
 //tag::header[]
 = {project-name}
 :author: Jeremie Bresson
-:revnumber: 2019-06-21
+:revnumber: 2019-06-25
 
 Content associated with the talk about OpenAPI.
 
@@ -32,6 +38,7 @@ Content associated with the talk about OpenAPI.
 //tag::talks[]
 
 * {talk1-date}: _link:{talk1-page}[{talk1-name}]_ given at {talk1-conference}
+* {talk2-date}: _link:{talk2-page}[{talk2-name}]_ given at {talk2-conference}
 
 //end::talks[]
 
